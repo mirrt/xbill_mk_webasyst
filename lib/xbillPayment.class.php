@@ -88,12 +88,12 @@ class xbillPayment extends waPayment implements waIPayment
 
         $this->set_config();
         
-        /*
+        
         if (!$this->verifySign($request)) 
         {
             throw new waPaymentException('invalid signature', 404);
         }
-        */
+        
         
         if ($transaction_data['amount'] / $this->order_sum < 0.8)
         {
