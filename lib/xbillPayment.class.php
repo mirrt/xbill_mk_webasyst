@@ -44,7 +44,7 @@ class xbillPayment extends waPayment implements waIPayment
            
             if($payment_mk['status'] == 0)
             {
-                $form_message = 'На Ваш номер телефона отправлена SMS, после подтверждения платежа, баланс будет пополнен моментально.';
+                $form_message = 'На Ваш номер телефона отправлена SMS, после подтверждения платежа, счет будет оплачен моментально.';
             }
             else
             {
